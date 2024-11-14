@@ -1,0 +1,168 @@
+{
+	"info": {
+		"_postman_id": "13d88bcb-78cc-41c7-88ec-97d450158499",
+		"name": "Student CRUD API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "36657898"
+	},
+	"item": [
+		{
+			"name": "add student",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"name\": \"Harsh\",\n  \"subjects\": [\n    { \"subjectName\": \"Math\", \"marks\": 85 },\n    { \"subjectName\": \"Science\", \"marks\": 90 }\n  ]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/students",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"students"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "add student Copy",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"name\": \"Harsh\",\n  \"subjects\": [\n    { \"subjectName\": \"Math\", \"marks\": 85 },\n    { \"subjectName\": \"Science\", \"marks\": 90 }\n  ]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/students/673600708ccf2625cf5f8e09",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"students",
+						"673600708ccf2625cf5f8e09"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get student by id",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"name\": \"Harsh\",\n  \"subjects\": [\n    { \"subjectName\": \"Math\", \"marks\": 85 },\n    { \"subjectName\": \"Science\", \"marks\": 90 }\n  ]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/students/673600708ccf2625cf5f8e09",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"students",
+						"673600708ccf2625cf5f8e09"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get students",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"name\": \"Harsh\",\n  \"subjects\": [\n    { \"subjectName\": \"Math\", \"marks\": 85 },\n    { \"subjectName\": \"Science\", \"marks\": 90 }\n  ]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/students/673600708ccf2625cf5f8e09",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"students",
+						"673600708ccf2625cf5f8e09"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "delete student",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"name\": \"Harsh\",\n  \"subjects\": [\n    { \"subjectName\": \"Math\", \"marks\": 85 },\n    { \"subjectName\": \"Science\", \"marks\": 90 }\n  ]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/students/673600708ccf2625cf5f8e09",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"students",
+						"673600708ccf2625cf5f8e09"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

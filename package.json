@@ -1,0 +1,18 @@
+{
+  "name": "student-crud",
+  "version": "1.0.0",
+  "description": "Student CRUD API using Express.js and MongoDB",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^7.0.3",
+    "dotenv": "^16.0.0",
+    "joi": "^17.7.1"
+  },
+  "devDependencies": {},
+  "author": "",
+  "license": "ISC"
+}
